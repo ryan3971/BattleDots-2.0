@@ -209,6 +209,8 @@ public class MainActivity extends Activity{
 //make Constants statically called or variable?
 //issue with firing if not moving
 
+//two powerups still in the works
+
 /*
 make discoverable
 scan

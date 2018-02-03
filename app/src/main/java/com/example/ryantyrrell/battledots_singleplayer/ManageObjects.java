@@ -295,7 +295,9 @@ public class ManageObjects {
         int sentry_gun_list_size = SENTRY_GUN_LIST.size();
 
         for (int list_num = 0; list_num < sentry_gun_list_size; list_num++) {
-            SENTRY_GUN_LIST.get(list_num).updateAndDrawSentryGun(list_num, dot_location_x, dot_location_y, instantaneous_movement_x, instantaneous_movement_y, Constants.getOtherDotX(), Constants.getOtherDotY());
+       //     SENTRY_GUN_LIST.get(list_num).updateAndDrawSentryGun(list_num, dot_location_x, dot_location_y, instantaneous_movement_x, instantaneous_movement_y, Constants.getOtherDotX(), Constants.getOtherDotY());
+            SENTRY_GUN_LIST.get(list_num).updateAndDrawSentryGun(list_num, dot_location_x, dot_location_y, instantaneous_movement_x, instantaneous_movement_y, dot_location_x, dot_location_y);
+
         }
     }
 

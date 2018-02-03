@@ -446,8 +446,8 @@ public class ObstaclesAndPowerUps {
 
     public void activatePowerUp() {
 
-     //   int power_up_num = random.nextInt(16);
-        int power_up_num = 14;
+        int power_up_num = random.nextInt(14);
+     //   int power_up_num = 15;
 
 
         if (power_up_num == 0) {
