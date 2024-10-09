@@ -69,14 +69,14 @@ Target SDK Version: Not specified (update recommended)
 - **PowerUpVariables**: Stores and manages power-up states.
 - **Boundaries**: Handles game boundaries and player movement.
 
-1. MainActivity
+## MainActivity
 - Main entry point of the application
 - Handles game initialization and UI management
 - Manages game start and end states
 - Implements countdown timer for game start
 - Contains comments about future improvements and known issues
 
-2. GameView
+## GameView
 - Extends Android View class
 - Manages the game loop and rendering
 - Handles touch events for player input
@@ -84,54 +84,54 @@ Target SDK Version: Not specified (update recommended)
 - Manages power-ups and obstacles
 - Draws game elements on the canvas
 
-3. ObstaclesAndPowerUps
+## ObstaclesAndPowerUps
 - Responsible for creating, updating, and drawing obstacles and power-ups
 - Manages collision detection between the player and obstacles/power-ups
 - Handles the creation of new obstacles and power-ups as needed
 
-4. ManageObjects
+## ManageObjects
 - Manages various game objects like lasers, balls, and power-ups
 - Handles creation, updating, and removal of game objects
 - Implements logic for different power-ups (e.g., laser, bouncing ball, multi-laser)
 - Manages special power-ups like sentry guns and triple balls
 
-5. PowerUpVariables
+## PowerUpVariables
 - Stores and manages power-up states
 - Handles dot speed, size, and other attributes affected by power-ups
 - Provides methods to get and set power-up states
 - Manages visibility of power-up images
 
-6. GameConstants
+## GameConstants
 - Stores constant values used throughout the game
 - Manages screen dimensions and game boundaries
 - Handles lists of obstacle and power-up coordinates
 - Provides methods to access and modify game constants
 
-7. TouchPad
+## TouchPad
 - Implements the touch control pad for player movement
 - Draws the touch pad on the screen
 - Manages touch pad coordinates and sizes
 
-8. Dot
+## Dot
 - Represents the player's dot
 - Handles drawing the dot on the canvas
 - Manages dot attributes like size and color
 
-9. Boundaries
+## Boundaries
 - Manages game boundaries and player movement
 - Updates player position based on touch input
 - Handles collision detection with game boundaries
 
-10. PowerUp_Images
+## PowerUp_Images
 - Manages the display of power-up images on the screen
 - Handles showing and hiding power-up icons
 
-11. Lives
+## Lives
 - Manages the player's lives
 - Draws life indicators on the screen
 - Handles life loss and game over conditions
 
-12. Various power-up classes (e.g., shootLaser, BouncingBall, MultiLaser, PowerWave)
+## Various power-up classes (e.g., shootLaser, BouncingBall, MultiLaser, PowerWave)
 - Implement specific power-up behaviors
 - Handle drawing and updating of power-up effects
 - Manage collision detection for power-up effects
